@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100%;
+    background: url(ocean-3605547_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* arka plan resmini sabitler */
+
+}
+
+/* header css */
+.header{
+    background-color: rgb(184, 223, 234);
+    display:flex;
+    height: 110px;
+    width: 100%;
+    justify-content: space-around;
+    align-items:center ;
+    position: fixed;
+    top: 0;
+}
+.header .title h1{
+    color: rgb(7, 145, 99);
+}
+
+.header .title h1 span{
+    color: rgb(10, 6, 6);
+}
+
+.header .nav ul li{
+    list-style-type: none;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(19, 141, 141);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.header .nav ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+/* header bitis */
+/* ana icerik baslangic */
+.main{
+    height: 50hv;
+    width: 100%;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+
+}
+.main .info {
+    height: 100%;
+    max-width: 800%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .info h1{
+    color: brown;
+}
+.main .info p{
+    color: gray;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.main .info p b{
+    color: rgb(181, 164, 203);
+    text-transform: capitalize;
+
+}
+
+.main .info button {
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.main .info button:hover{
+    cursor: pointer;
+    background-color: rgb(217, 164, 110);
+    font-size: 15px;
+}
+
+/* ana icerik bitis */
+
+/* table baslangic */
+
+.table-container{
+    width: 80%;
+    margin: 80px auto;
+}
+.table-container table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    /* tablolar arasinda ki bosluklari giderir */
+
+
+}
+th, td {
+    padding: 8px;
+    border: 2px solid gray;
+    color: rgb(149, 232, 167);
+    
+    
+   
+
+}
+th{
+    background-color: rgb(205, 192, 192);
+    color: black;
+}
+
+
+/*table alani bitis */
+
+/* form alani css */
+
+.form-container{
+    width:80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 100px;
+    background-color: rgb(228, 236, 236);
+
+}
+
+label{
+    font-weight: bold;
+}
+#ad, 
+#email, 
+textarea{
+    width: 99%;
+    padding: 10px;
+    border: 1px solid rgb(101, 53, 53);
+    border-radius: 5px;
+}
+.btn{
+    background-color: rgb(40, 101, 159);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5 px;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    background-color: rgb(162, 162, 195);
+}
+
+
+
+/* form alani css bitis */
+
+/* footer alani baslangic */
+.footer{
+    background-color: rgb(167, 158, 158);
+    color: white;
+    height: 100px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer alani bitis  */
+
+/* media sorgulari */
+@media (max-width: 600px){
+    .header .nav{
+    display: none;
+    
+}
+}
+/*  
+.header{
+    background-color: aqua;
+}
+
